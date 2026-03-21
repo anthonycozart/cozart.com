@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cozart</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 18px;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #FAF8F6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 0.25em;
+      text-wrap: balance;
+    }
+
+    a {
+      color: #1a1a1a;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    a:hover {
+      text-decoration-thickness: 2px;
+    }
+
+    .home {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 5rem 1.5rem 4rem;
+    }
+
+    .people {
+      margin-top: 2.5rem;
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .people li {
+      margin-bottom: 1.5em;
+    }
+
+    .person-name {
+      font-weight: 600;
+    }
+
+    .person-desc {
+      color: #555;
+    }
+
+    .person-links {
+      font-size: 0.9rem;
+      margin-top: 0.1em;
+    }
+
+    .person-links a {
+      margin-right: 0.75em;
+    }
+
+    @media (max-width: 768px) {
+      html {
+        font-size: 16px;
+      }
+
+      .home {
+        padding: 3rem 1.25rem 3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="home">
+    <h1>Cozart</h1>
+    <ul class="people">
+      <li>
+        <div class="person-name">Toby Cozart</div>
+        <div class="person-desc">Retired lawyer, early tech adopter, owner of domain name</div>
+        <div class="person-links">
+          <a href="https://www.linkedin.com/in/tobycozart/">LinkedIn</a>
+        </div>
+      </li>
+      <li>
+        <div class="person-name">Miles Cozart</div>
+        <div class="person-desc">Writer, TPM, firstborn son</div>
+        <div class="person-links">
+          <a href="https://www.linkedin.com/in/miles-cozart/">LinkedIn</a>
+        </div>
+      </li>
+      <li>
+        <div class="person-name">Anthony Cozart</div>
+        <div class="person-desc">Creator of this website</div>
+        <div class="person-links">
+          <a href="https://anthony.cozart.com">Website</a>
+          <a href="https://www.linkedin.com/in/anthony-cozart/">LinkedIn</a>
+        </div>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
